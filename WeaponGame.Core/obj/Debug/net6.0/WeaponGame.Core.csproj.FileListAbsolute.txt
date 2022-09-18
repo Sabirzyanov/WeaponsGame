@@ -1,0 +1,12 @@
+C:\Programming\C#\WeaponGame\WeaponGame.Core\bin\Debug\net6.0\WeaponGame.Core.deps.json
+C:\Programming\C#\WeaponGame\WeaponGame.Core\bin\Debug\net6.0\WeaponGame.Core.dll
+C:\Programming\C#\WeaponGame\WeaponGame.Core\bin\Debug\net6.0\WeaponGame.Core.pdb
+C:\Programming\C#\WeaponGame\WeaponGame.Core\obj\Debug\net6.0\WeaponGame.Core.csproj.AssemblyReference.cache
+C:\Programming\C#\WeaponGame\WeaponGame.Core\obj\Debug\net6.0\WeaponGame.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\C#\WeaponGame\WeaponGame.Core\obj\Debug\net6.0\WeaponGame.Core.AssemblyInfoInputs.cache
+C:\Programming\C#\WeaponGame\WeaponGame.Core\obj\Debug\net6.0\WeaponGame.Core.AssemblyInfo.cs
+C:\Programming\C#\WeaponGame\WeaponGame.Core\obj\Debug\net6.0\WeaponGame.Core.csproj.CoreCompileInputs.cache
+C:\Programming\C#\WeaponGame\WeaponGame.Core\obj\Debug\net6.0\WeaponGame.Core.dll
+C:\Programming\C#\WeaponGame\WeaponGame.Core\obj\Debug\net6.0\refint\WeaponGame.Core.dll
+C:\Programming\C#\WeaponGame\WeaponGame.Core\obj\Debug\net6.0\WeaponGame.Core.pdb
+C:\Programming\C#\WeaponGame\WeaponGame.Core\obj\Debug\net6.0\ref\WeaponGame.Core.dll
