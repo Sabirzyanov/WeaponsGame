@@ -39,7 +39,7 @@ Engineer engineer = new Engineer(logger);
 shuhrat.ChosenWeapon.Attack();
 
 shuhrat.AddWeapon(m1911);
-shuhrat.ChangeActiveWeapon(1);
+shuhrat.ChangeActiveWeapon();
 
 shuhrat.ChosenWeapon.Attack();
 
@@ -54,6 +54,9 @@ shuhrat.GetInfoAboutChosenWeapon();
 engineer.RepairWeapon((IRepairable) shuhrat.ChosenWeapon);
 
 shuhrat.GetInfoAboutChosenWeapon();
+
+shuhrat.ChangeActiveWeapon();
+shuhrat.ChangeActiveWeapon();
 
 
  

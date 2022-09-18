@@ -8,6 +8,8 @@ public class Military
 
     public IWeapon ChosenWeapon { get; private set; }
 
+    private int _currentWeaponIndex = 0;
+
     private ILogger _logger;
 
     public Military(ILogger logger, IWeapon startWeapon)
@@ -17,11 +19,20 @@ public class Military
         ChosenWeapon = startWeapon;
     }
 
-    public void ChangeActiveWeapon(int inventoryPosition)
+    public void ChangeActiveWeapon()
     {
+        if (_inventory.Count - 1 <= _currentWeaponIndex || _currentWeaponIndex < 0)
+        {
+            _currentWeaponIndex = 0;
+        }
+        else
+        {
+            _currentWeaponIndex++;
+        }
+
         try
         {
-            ChosenWeapon = _inventory[inventoryPosition];
+            ChosenWeapon = _inventory[_currentWeaponIndex];
             _logger.LogInfo("Military change weapon");
             GetInfoAboutChosenWeapon();
         }
